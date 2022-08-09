@@ -1,0 +1,12 @@
+syntax = "proto3";
+package mastervectormaster.bluechip.bluechip;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/mastervectormaster/bluechip/x/bluechip/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
