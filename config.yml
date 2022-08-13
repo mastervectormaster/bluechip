@@ -14,3 +14,13 @@ client:
 faucet:
   name: bob
   coins: ["5token", "100000stake"]
+genesis:
+  chain_id: "bluechipChain"
+  staking:
+    unbonding_time: "1814400000000000"
+    max_validators: "100"
+    bond_denom: "bluechip"
+  mint:
+    params:
+      mint_denom: "bluechip"
+      blocks_per_year: "5256000"
