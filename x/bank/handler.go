@@ -7,7 +7,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/bank/types"
 )
 
-// NewHandler returns a handler for "bank" type messages.
 func NewHandler(k keeper.Keeper) sdk.Handler {
 	msgServer := keeper.NewMsgServerImpl(k)
 
